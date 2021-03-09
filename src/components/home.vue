@@ -50,7 +50,7 @@ module.exports = {
     //search method, calls API
     search() {
       //let url = `https://api.iextrading.com/1.0/stock/${this.symbol}/quote`;
-      let url = `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${this.symbol}&apikey=JCUMF1LP7BJRBJJF`;
+      let url = `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${this.symbol}&apikey=`; //Add reference to API key here.
 
       this.init();
       this.$http
